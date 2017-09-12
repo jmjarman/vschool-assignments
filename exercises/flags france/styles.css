@@ -1,0 +1,26 @@
+.box {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+}
+
+.barrt {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+       
+
+
+.barlt {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0; 
+}

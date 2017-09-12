@@ -28,17 +28,18 @@ function isEven(a) {
 console.log(isEven(2))
 
 //
-var myString = (str);
+function strings(myString) {
 
-if (str.length <= 20) {
-    return str.concate(str) {
+    if (myString.length <= 20) {
+        return myString.concat(myString);
 
-    } else if (str.length > 20) {
-        return str.slice(str.length / 2)
+    } else if (myString.length > 20) {
+        return myString.slice(myString.length / 2);
 
     }
-
 }
+console.log(strings("thisisatest"));
+
 //
 
 function fibonacci(num) {

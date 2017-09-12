@@ -1,0 +1,88 @@
+
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.box1rt {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box1rb {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;        
+}
+
+.box1lt {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+
+.box1lb {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.bar1left {
+    width: 75px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.bar1right {
+    width: 75px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.bar1top {
+    width: 400px;
+    height: 75px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.bar1bot {
+    width: 400px;
+    height: 75px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+
