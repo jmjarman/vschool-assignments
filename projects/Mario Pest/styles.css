@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+    font-family: sans-serif;
+    text-decoration-color: darkgray;
+}
+
+h1 {
+    background-color: blue;
+    font-size: 350%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%
+}
+
+p {
+    background-color: yellow;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 150%;
+}
+li {
+    font-size: 150%;
+}
+ 
+.cheep {
+    display: inline-block;
+}
+
+.goomba {
+    display: inline-block;
+}
+
+.bob {
+    display: inline-block;
+}
+
+img {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}
