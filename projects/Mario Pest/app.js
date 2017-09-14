@@ -1,22 +1,35 @@
-var goombaPrice = parseInt(document.getElementById("goomba-price").innerHTML);
+var goombaTotal = 0
+var cheepTotal = 0
+var bobTotal = 0
 
-var cheepPrice = parseInt(document.getElementById("cheep-price").innerHTML);
-
-var bobPrice = parseInt(document.getElementById("bob-price").innerHTML);
+//insert goomba function
 document.getElementById("goomba-count").addEventListener("input", function(){
     var goombaCount = parseInt(document.getElementById("goomba-count").value);
-    var goombaTotal = goombaPrice * goombaCount;
+    var goombaPrice = parseInt(document.getElementById("goomba-price").innerHTML);
+    goombaTotal = goombaPrice * goombaCount;
     document.getElementById("goomba-total").innerHTML = goombaTotal
+    computeTotal()    
 });
 
+//insert cheep function
 document.getElementById("cheep-count").addEventListener("input", function(){
     var cheepCount = parseInt(document.getElementById("cheep-count").value);
-    var goombaTotal = cheepPrice * cheepCount;
-    document.getElementById("cheep-total").innerHTML = goombaTotal
+    var cheepPrice = parseInt(document.getElementById("cheep-price").innerHTML);
+    cheepTotal = cheepPrice * cheepCount;
+    document.getElementById("cheep-total").innerHTML = cheepTotal
+    computeTotal()
 });
 
-var gtotal = parseInt(document.getElementById("goomba-total").innerHTML);
-var ctotal = parseInt(document.getElementById("cheep-total").innerHTML);
-var btotal = parseInt(document.getElementById("bob-total").innerHTML);
-document.getElementById("total").innerHTML = gtotal + ctotal + btotal
-
+//insert bob function
+document.getElementById("bob-count").addEventListener("input", function(){
+    var bobCount = parseInt(document.getElementById("bob-count").value);
+    var bobPrice = parseInt(document.getElementById("bob-price").innerHTML);
+    bobTotal = bobPrice * bobCount;
+    document.getElementById("bob-total").innerHTML = bobTotal
+    computeTotal()
+});
+       
+//grand total
+function computeTotal(){
+    document.getElementById("total").innerHTML = goombaTotal + cheepTotal + bobTotal
+}

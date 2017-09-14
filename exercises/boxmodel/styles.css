@@ -42,12 +42,7 @@
     display: inline-block;
 }
 
-
-
-
-
-
-/*@media (max-width:768px) {
+@media (max-width:768px) {
     .row2 {
         width: 100%;
     }
@@ -60,4 +55,4 @@
     .row4b {
         width: 100%;
     }
-}*/
+}
