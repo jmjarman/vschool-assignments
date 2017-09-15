@@ -1,0 +1,21 @@
+body{
+    background-color: darkseagreen;
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+
+.add{
+    display: inline-block;
+}
+
+.sub{
+    display: inline-block;
+}
+
+.mult{
+    display: inline-block;
+}
+
+h2{
+    
+}

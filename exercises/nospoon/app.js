@@ -41,7 +41,7 @@ var bed = {
 var bag = {
     color: "gray";
     type: "messenger";
-    brand: "patagonia"
+    brand: "patagonia";
 };
 var dresser = {
     color: "tan";

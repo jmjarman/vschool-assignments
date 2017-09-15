@@ -1,15 +1,15 @@
 /*var str = "appleisgood";
 for (var i = 0; i < str.length; i++){
-    console.log(str.charAt(i));
+    console.log(str.charAt[i]);
 }
-
-function findP(str, n) {
+//
+function findP(str, letter) {
 
     for (var i = 0; i < str.length; i++);
-    if (str.indexOf(n) === -1) {
-        console.log("no character found")
+    if (letter === str[i]) {
+        console.log(i)
     }else{
-        console.log(str.indexOf(n));
+        return str.indexOf(n));
     }
 }
 findP("appleisgood", "p")
@@ -17,9 +17,9 @@ findP("appleisgood", "p")
 function fortyTwo(array){
     
     for (var i = 0; i < str.length; i++)
-        if(i === 42){
-            console.log("found 42")
-            break
+        if(arr[i] === 42){
+            console.log("found 42", i)
+            return;
         }else{
             console.log("42 not found")
             
@@ -28,10 +28,26 @@ function fortyTwo(array){
 fortyTwo[1, 5, 10, 20, 25, 42]*/
 
 
-var myArray = [4, 5, 6];
-var biggestNum = 0;
-for (var i = 0; i < myArray.length; i++) {
-    if (myArray[i] > biggestNum) {
-        biggestNum = myArray[i];
+function loop4(arr) {
+    var smallNum = arr[0];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] < smallNum) {
+            smallNum = arr[i]
+        }
     }
+    console.log(smallNum);
 }
+
+loop4(arr);
+
+
+
+
+
+
+
+
+
+
+
+

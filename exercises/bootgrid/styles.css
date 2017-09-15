@@ -1,0 +1,29 @@
+.pink{
+    height: 160px;
+    background-color: #F5C6D6;
+    border: 10px solid white
+}
+
+.magenta{
+    height: 160px;
+    background-color: #EE2E84;
+    border: 10px solid white
+}
+
+.blue{
+    height: 160px;
+    background-color: #85CFD8;
+    border: 10px solid white
+}
+
+.green{
+    height: 160px;
+    background-color: #8DC63F;
+    border: 10px solid white
+}
+
+.orange{
+    height: 160px;
+    background-color:#E76E34;
+    border: 10px solid white
+}
