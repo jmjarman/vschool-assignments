@@ -16,6 +16,12 @@ body{
     display: inline-block;
 }
 
-h2{
+h3{
+    color: bisque;
     
+}
+
+.calc{
+    border-style:double;
+    border-width: 5px;
 }
