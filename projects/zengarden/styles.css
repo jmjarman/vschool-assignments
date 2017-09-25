@@ -1,0 +1,166 @@
+@font-face{
+    font-family: 'icons';
+    src: url("verdemoderna.woff") format('woff');
+    
+    
+}
+
+
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 75px;
+    font-size: 270%
+}
+
+h3{
+    font-family:'Julius Sans One', sans-serif;
+    
+}
+
+h4{
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    background-color: transparent;
+    
+}
+.header{
+    height: 300px;
+    color: floralwhite;
+    text-align: center;    
+}
+
+.btn-primary-outline{
+    background-color: transparent;
+    float: right;
+    border-color: #ccc;
+    top: 129px;
+    position: absolute;
+    right: -283px;
+    height: 50px;
+    width: 200px;   
+}
+
+.margintop{
+    margin-top: 300px;
+    background-color: #d2e2bf;
+    height: 2200px;
+}
+
+.header-background{
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+}
+img{
+    height: 300px;
+    width: 1500px;
+    display: block;    
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    margin-right: 436px;
+    margin-top: -85px;
+}
+.bamboo{
+    background-image: url("http://www.csszengarden.com/214/bamboo.png");
+    background-color: #d2e2bf;
+}
+
+p{
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    font-size: 110%
+}
+
+ul{
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%
+}
+
+footer{
+   height: 300px;
+    background-image: url("http://www.csszengarden.com/214/koi.jpg");
+    background-size: cover;
+    color: floralwhite;
+    text-align: center; 
+    
+}
+
+.main {
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+.foot {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 120px;
+    line-height: 40px;
+    letter-spacing: inherit;
+    font-size: 200%;
+}
+
+.icons {
+    font-family: 'icons';
+    font-size: 300%
+}
+
+
+/*copied font css*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'Julius Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(http://fonts.gstatic.com/s/juliussansone/v5/iU65JP9acQHPDLkdalCF7pQnCV4ii-F0S-GDf6mWM7Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Julius Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(http://fonts.gstatic.com/s/juliussansone/v5/iU65JP9acQHPDLkdalCF7pbhOpL-vLTkIjCTuVYsuO0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(http://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5RObNE73mVYEPR_8pi-Us2X2Ot9t5h1GRSTIE78Whtoh.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(http://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK56jerHLVJWaC-9Ja-RK4Ug.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

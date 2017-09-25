@@ -7,6 +7,8 @@ console.log(input);
 
 
 var result = "";
+var alphabet = "abcdefghijklmnopqrstuvwxy"
+str str.toLowerCase();
 for (var i = 0, i < input.length; i++ + ) {
 
     var currentCharIndex = alphabet.indexOf(input[i]);
