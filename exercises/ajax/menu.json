@@ -1,0 +1,33 @@
+//"employees":[
+  //  {"firstName":"John", "lastName":"Doe"}, 
+    //{"firstName":"Anna", "lastName":"Smith"}, 
+    //{"firstName":"Peter", "lastName":"Jones"}
+//]
+
+"appetizers":[
+    {"item1": "Nachos", ["cheese", "salsa", "chips"], "Corn chips with melted cheese and salsa"},
+    {"item2": "Crabcakes", ["crab", "mayonaise", "cheese"], "Fresh crabcakes topped with cheese"}   
+]
+
+"cold sandwiches":[
+    {"item3": "Ham", ["ham", "cheese", "bread"], "Delicious ham and swiss cheese on a croissant"},
+    {"item4": "Turkey", ["turkey", "cheese", "bread"], "Smoked turkey and swiss cheese on a bun"}
+    
+]
+
+"hot sandwiches":[
+    {"item5": "Reuben", ["pastrami", "cheese", "bread"], "Pastrami and swiss cheese melted on a onion roll"},
+    {"item6": "French Dip", ["beef", "cheese", "bread"], "Hot roast beef with swiss cheese on a long bun with dipping sauce"}
+    
+]
+
+"desserts":[
+    {"item7": "Cake", ["flour", "eggs", "sugar"], "Fresh chocolate cake with chocolate icing"},
+    {"item8": "Pie", ["crust", "apples", "sugar"], "Apple pie with vanilla ice cream"}
+    
+]
+
+"drinks":[
+    {"item9": "Soda", ["sugar", "water", "coloring"], "Delicious cold sodas"},
+    {"item10": "Coffee", ["coffee", "water", "milk"], "Steaming hot coffee"}
+]
