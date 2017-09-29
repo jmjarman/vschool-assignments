@@ -1,3 +1,6 @@
+var readline = require("readline-sync")
+
+
 /*function allCaps(str) {
     var str = "hello";
     var caps = str.toUpperCase();

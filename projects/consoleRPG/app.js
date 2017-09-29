@@ -1,31 +1,40 @@
 var readline = require("readline-sync");
 
+//user//
 var user = {
     name: (''),
     life: 10,
     inventory: ["potato"]
 }
 
-var weapon = ["shotgun", "sword", "baton"];
-var enemyNames = ["zombie", "vampire", "werewolf"];
-//var inventory = ["potato"];
+var monster = {
+    life: 10,
+}
 
+
+//global variables
+var weapon = ["shotgun", "sword", "baton", "pistol"];
+var enemyNames = ["zombie", "vampire", "werewolf"];
 
 
 /////////////////////INTRO/////////////////////////////
 var name = readline.question("Excuse me, I believe I know you. What is your name?");
 user.name = name
 
-console.log("I'm so glad to finally find you. Be careful, there are zombies everywhere! Press 'w' to walk to avoid attracting attenton or 'i' for inventory.");
+
+console.log("I'm so glad to finally find you. Be careful, there are zombies everywhere! Press 'w' to walk to avoid attracting attenton or 'i' for your inventory.")
 
 /////////////////Actions///////////////////
 
-//inventory.
+//inventory//
+
 function checkInventory() {
     console.log(user);
 }
 
+
 //doesEnemyAppear
+
 function doesEnemyAppear() {
     var randomNumber = Math.floor((Math.random() * 3) + 1);
     if (randomNumber === 2) {
@@ -36,36 +45,35 @@ function doesEnemyAppear() {
 
 }
 
+
 //run
-var runOrDie = Math.floor((Math.random() * 2) + 1)
 
 function run() {
     runOrDie = Math.floor((Math.random() * 2) + 1)
     if (runOrDie === 1) {
         console.log("Sorry, you have been caught and eaten alive. Try again")
     } else {
-        console.log("You have escaped the monster!")
+        console.log("You have escaped the monster! Press 'w' to walk or press 'i' to view inventory.")
     }
 }
 
 
 //attack
-var charPower = Math.floor((Math.random() * 10) + 1)
-console.log(charPower)
 
-function attack() {}
+var charPower = Math.floor((Math.random() * 10) + 1)
 
 var enemyPower = Math.floor((Math.random() * 10) + 1)
 
-function enemyAttack() {}
 
 //fight
+
 function fight() {
     enemyPower = Math.floor((Math.random() * 10) + 1)
     charPower = Math.floor((Math.random() * 10) + 1)
     if (charPower < enemyPower) {
-        console.log("You have died!")
+        console.log("You have died!  Press 'w' to try again")
     } else {
+
         console.log("You killed the enemy and been awarded a new weapon!! Press 'i' for inventory or 'w' to continue playing.")
         user.inventory.push(weapon[Math.floor(Math.random() * 3)])
     }
