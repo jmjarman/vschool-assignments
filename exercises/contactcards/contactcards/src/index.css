@@ -1,6 +1,6 @@
 .box{
     border: solid black;
-    width: 100px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
     display: inline-block;
 }

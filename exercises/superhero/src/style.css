@@ -1,0 +1,6 @@
+display{
+    display:inline-block,
+}
+.wrapper{
+    display: flex;
+}

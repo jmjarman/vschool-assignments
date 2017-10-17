@@ -1,8 +1,11 @@
 name: jane doe,
 phone: 1234567
-name: markymark
+
+name: markymark,
 phone: 2345678
-name: john doe
+
+name: john doe,
 phone 3456789
-name: eric clapton
-phone: 9876543
+
+name: eric clapton,
+phone: 9876543]

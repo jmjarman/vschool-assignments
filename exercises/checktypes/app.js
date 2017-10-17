@@ -1,0 +1,14 @@
+
+function checkTypes(arr){
+     
+
+
+
+
+
+
+
+
+
+
+}
