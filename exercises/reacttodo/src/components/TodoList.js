@@ -1,5 +1,5 @@
 import React from "react";
-import TodoItem from "./TodoItem.js";
+import TodoItemContainer from "./TodoItemContainer.js";
 import axios from "axios";
 import { Button } from 'react-bootstrap';
 
@@ -16,6 +16,7 @@ class TodoList extends React.Component {
         this.deleteTodo = this.deleteTodo.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.postTodo = this.postTodo.bind(this);
+        this.editTodo = this.editTodo.bind(this);
     }
 
     componentDidMount() {
@@ -52,10 +53,22 @@ class TodoList extends React.Component {
         });
     }
 //enter editTodo
-    editTodo(id){
-    axios.put(`https://api.vschool.io/jmjarman/todo/${id}`, this.state.editTodo).then(response=>{
+    editTodo(id, editTodo){
+    axios.put(`https://api.vschool.io/jmjarman/todo/${id}`, editTodo).then(response=>{
+let newEdit = response.data;
         this.setState(prevState => {
 
+            const newTodos = prevState.todos.map((todo)=>{
+                if(todo._id ===id){
+                    return newEdit
+                }else{
+                    return todo;
+                }
+            });
+                return{
+                    ...prevState,
+                    todos:newTodos
+                }
         })
     })
     }
@@ -95,11 +108,14 @@ class TodoList extends React.Component {
 
                 <Button onClick={this.postTodo}>Add todo</Button>
                 {this.state.todos.map((item, i) => {
+
                     return (
-                        <TodoItem
+                        <TodoItemContainer
                             todo={item}
                             key={item.title + i}
-                            deleteTodo={this.deleteTodo}/>
+                            deleteTodo={this.deleteTodo}
+                            editTodo={this.editTodo}
+                            />
                     )
                 })}
             </div>

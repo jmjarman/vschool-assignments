@@ -9,7 +9,7 @@ class ItemContainer extends React.Component{
             editTodo: {
                 title: props.todo.title,
                 description: props.todo.description,
-                completed: props.todo.completed
+                completed: props.todo.completed,
             }
         }
         this.handleEdit = this.handleEdit.bind(this);
@@ -42,6 +42,7 @@ class ItemContainer extends React.Component{
         this.props.editTodo(this.props.todo._id, this.state.editTodo);
     }
     render(){
+
         return (
             <TodoItem
                 todo={this.props.todo}
