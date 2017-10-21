@@ -10,6 +10,7 @@ class FormContainer extends React.Component{
         this.state = {
             inputs: {
                 title: "",
+                footer: "",
                 imgUrl: ""
             }
         }
@@ -25,7 +26,7 @@ class FormContainer extends React.Component{
         return{
             inputs:{
                 ...prevState.inputs,
-                [e.target.title]: e.target.value
+                [e.target.name]: e.target.value
             }
         }
     }
@@ -33,10 +34,11 @@ class FormContainer extends React.Component{
 }
 handleSubmit(e){
     e.preventDefault();
-    this.props.addCountry(this.state.inputs)
+    this.props.addMeme(this.state.inputs)
     this.setState({
             inputs: {
                 title: "",
+                footer: "",
                 imgUrl: ""
             }
         })

@@ -9,16 +9,15 @@ class MemesContainer extends React.Component{
         this.genList = this.genList.bind(this)
     }
     genList(){
-        return this.props.memes.map((meme, i)=>{
-            return <Meme
-            key={meme.title + 1}
-            meme = {meme}/>
+        return this.props.memes.map((meme, index)=>{
+            return <Meme key = {meme.title + index}
+            meme = {meme} index = {index}/>
         })
     }
     render(){
         console.log(this.props)
         return(
-            <MemesComponent genList = {this.genList}/>
+            <MemesComponent genList = {this.genList} index = {this.index}/>
         )
     }
 

@@ -1,4 +1,6 @@
 import React from "react";
+import {connect} from "react-redux";
+import{memes} from "../../redux/actions";
 
 function Meme(props){
     const style = {
@@ -11,11 +13,15 @@ function Meme(props){
         margin: "20px",
         display: "inline-block"
     }
+    console.log(props)
     return(
         <div style = {style}>
-            <h4>{props.meme.name}</h4>
+            <h4>{props.meme.title}</h4>
+            <h4>{props.meme.footer}</h4>
+            <button onClick ={() =>{props.deleteMeme(props.index)}}>Remove</button>
+            <button onClick ={() =>{props.editMeme(props.index)}}>Edit</button>
         </div>
     )
 
 }
-export default Meme
+export default connect(null,memes) (Meme);

@@ -6,5 +6,11 @@ let newCountries = [...prevCountries]
         return newCountries;
         default:
             return prevCountries
+        case "DELETE_COUNTRY"
+
+
+
     }
+
+
 }

@@ -12,7 +12,8 @@ constructor(){
         return this.props.countries.map((country, i)=>{
             return <Country
                 key={country.name + i}
-                country = {country}/>
+                country = {country}
+                index={index}/>
         })
     }
 render(){
