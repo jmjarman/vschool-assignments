@@ -7,11 +7,14 @@ function Meme(props){
         backgroundImage: `url(${props.meme.imgUrl})`,
         backgroundSize: "cover",
         width: "500px",
-        height: "350px",
-        color: "black",
+        height: "500px",
+        color: "white",
         border: "1px black solid",
         margin: "20px",
-        display: "inline-block"
+        display: "inline-block",
+        textAlign: "center"
+
+
     }
     console.log(props)
     return(
