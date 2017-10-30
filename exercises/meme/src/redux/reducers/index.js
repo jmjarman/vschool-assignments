@@ -10,8 +10,4 @@ const reducer =function(prevState = state,action){
     }
 }
 
-
-
-
-
 export default reducer;
